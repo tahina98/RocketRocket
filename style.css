@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+
+font-size: 65px;
+    text-align: center;
+
+}
+
+#liste{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.team{
+    margin: 40px;
+    color: black;
+    background-color: white;
+    width: 25vw;
+    height: 35vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listJoueur{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#request{
+    text-align: center;
+}
+
+
